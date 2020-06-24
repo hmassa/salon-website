@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Noto+Serif+JP&display=swap');
+
+/* Taken from User Authentication (During Class) > 2. cookie > app.css */
+#loginWidget {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+#loginWidget > h1 {
+    margin: 0;
+    padding: 2px;
+}
+#loginWidget form {
+    background-color: #EEE;
+    border: 1px solid #FFF;
+    padding: 0.5em 0;
+    border-radius: 0 0 10px 10px;
+}
+#loginWidget form label {
+    width: 95px;
+    text-align: right;
+    display: inline-block;
+}
+#loginWidget div.stack {
+    margin: 1em 0;
+}
+div.ui-state-error {
+    padding: 4px 0;
+}
+div.pageWidget {
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#welcome {
+    margin: 50px auto;
+    text-align: center;
+    border: 6px double #333;
+    background-color: white;
+    width: 50%;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #75aeeb, #ff80c2);
+    margin: 0;
+    padding: 0;
+}
+
+.formText, .formText a {
+    color: white;
+}
+
+.welcomeHeader {
+    border: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 65px;
+    color: #333;
+}
+
+.welcomeText {
+    font-family: 'Barlow', sans-serif;
+    color: #ff0084;
+}
+
+#welcomeButton {
+    border: 4px solid #0073ea;
+    border-radius: 4px;
+    background-color: #0073ea;
+    width: 30%;
+    height: 50px;
+    margin: 30px;
+}
+
+#welcomeButton a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #0073ea;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar a {
+    position: relative;
+    float: left;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.tabs {
+    padding: 16px;
+    border: 2px solid #0073ea;
+}
+
+.home {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #ff0084;
+    border: 2px solid #ff0084;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    font-family: 'Barlow', sans-serif;
+    color: #555;
+}
+
+#signedOut {
+    float: right;
+    padding: 18px;
+    font-size: 16px;
+}
+
+/* CSS for dropdown found at https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+.dropdown {
+      float: right;
+/*      overflow: hidden;*/
+}
+
+.dropdown .dropbtn {
+      font-size: 15px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 19px;
+      background-color: inherit;
+}
+
+.tabs:hover, .dropdown:hover .dropbtn {
+    border: 2px solid #ff0084;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 10;
+}
+
+#frontPage {
+    margin-top: 59px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#logo {
+    border: 6px double white;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    font-family: 'Noto Serif JP', serif;
+    padding: 40px;
+    height: 80%;
+}
+
+#logo h2 {
+    font-size: 75px;
+    margin: 5px;
+}
+
+#logo h3 {
+    font-size: 60px;
+    margin: 5px;
+}
+
+#logo p {
+    font-size: 30px;
+}
+
+#logoBackground {
+    background-color: #ff0084;
+    padding: 10px;
+    flex: 33%;
+}
+
+#frontPage img {
+    width: 33%;
+    flex: 33%;
+}
+
+#divider {
+    background-color: #ff0084;
+    height: 30px;
+    width: 100%;
+}
+
+.contact {
+    margin: auto;
+    text-align: center;
+}
+
+.contact h3 {
+    color: #0073ea;
+}
+
+.icon {
+    margin: 0px 10px 20px 10px;
+}
+
+.descContainer {
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.descContainer p {
+    font-size: 20px;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colContainer {
+    width: 1038px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.col {
+    float: left;
+    text-align: justify;
+    width: 300px;
+    border: 3px double #555;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col h3 {
+    color: #0073ea;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.video {
+    display: block;
+    margin: 40px auto;
+    width: 640px;
+    height: 360px;
+    border: none;
+}
+
+#search {
+    width: 85%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0084;
+    border-bottom: 3px solid #ff0084;
+    border-top: 3px solid #ff0084;
+    margin: 10px 0px;
+    font-weight: lighter;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 40px;
+}
+
+#searchForm {
+    margin: 20px 0;
+}
+
+#searchForm input, #searchForm select, #searchForm button{
+    margin: 10px;
+    color: #0073ea;
+    height: 40px;
+    border:2px solid #0073ea;
+    border-radius: 4px;
+}
+
+#searchForm button {
+    color: white;
+    background-color: #0073ea;
+}
+
+#searchForm button:hover {
+    color: #0073ea;
+    background-color: white;
+}
+
+.tableContainer {
+    width: 1210px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+#services {
+    width: 550px;
+    margin: 10px;
+    float: left;
+}
+
+#services p{
+    margin-top: 40px;
+}
+
+#services {
+    width: 550px;
+    margin: 10px;
+    float: left;
+}
+
+.photoCol {
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+
+.photoCol img {
+    width: 250px;
+    height: 250px;
+    margin: 5px 0px;
+}
+
+.photoCol img:hover {
+    width: 255px;
+    height: 255px;
+    box-shadow: 0px 0px 10px #555;
+}
+
+.col1 {
+    text-align: left;
+    width: 400px;
+}
+
+.col2 {
+    text-align: right;
+    width: 150px;
+}
+
+#loader {
+    border: 10px solid lightgray;
+    border-top: 10px solid slategray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+    display: none;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#searchResults {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#searchResults button{
+    margin: 10px;
+    background-color: #ff0084;
+    color: white;
+    height: 40px;
+    border:2px solid #ff0084;
+    border-radius: 4px;
+}
